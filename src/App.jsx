@@ -13,7 +13,7 @@ function App() {
   const [error, setError] = useState(""); // エラーメッセージを保存する
 
   const api_key = "80a30b9fe5174f0293894428252905"; // 天気のAPIのキー
-  const api_url = "http://api.weatherapi.com/v1/forecast.json";// 天気のAPIのURL
+  const api_url = "https://api.weatherapi.com/v1/forecast.json";// 天気のAPIのURL
 
   const fetchData=async(query)=>{
     try{
